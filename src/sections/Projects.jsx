@@ -27,8 +27,8 @@ const projects = [
     title: "Personal Portfolio Website",
     description: "This very website! A modern, responsive, and interactive portfolio built with React and Tailwind CSS. Showcases my skills, projects, and passion for UI/UX design. Incorporates Framer Motion for animations.",
     image: project3Img, // Perhaps a screenshot of this project itself!
-    liveLink: "https://your-portfolio-live.com",
-    githubLink: "https://github.com/joshuaopele/my-portfolio",
+    liveLink: "https://my-portfolio-dusky-one-25.vercel.app/",
+    githubLink: "https://github.com/Josh254-prog/my_portfolio.git",
   },
   {
     title: "School Website",
