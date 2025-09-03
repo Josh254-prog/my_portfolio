@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom scrollbar styling for a modern look */
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #7B42F2, #FF007F); /* Gradient thumb */
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #8A52F7, #FF3399); /* Slightly lighter on hover */
+}
